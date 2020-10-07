@@ -14,12 +14,15 @@ turtle.color("blue", "red")
 
 turtle.begin_fill()
 turtle.left(140)
+
 turtle.forward(112.65)
+turtle.forward(111.64)
+
 curve()
 
 turtle.left(120)
 curve()
-turtle.forward(111.65)
+turtle.forward(111.64)
 turtle.end_fill()
 turtle.hideturtle()
 turtle.mainloop()
