@@ -13,7 +13,7 @@ def curve():
 turtle.color("blue", "red")
 
 turtle.begin_fill()
-turtle.left(140.0)
+turtle.left(140)
 
 turtle.forward(112.65)
 turtle.forward(111.64)
