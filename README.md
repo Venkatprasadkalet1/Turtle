@@ -1,3 +1,3 @@
 # Turtle
-creating an 💓 using python 3.7.
+creating an 💓 using python 2.7.
 ![](images/heart.png)
