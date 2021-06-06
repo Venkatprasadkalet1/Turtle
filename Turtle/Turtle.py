@@ -1,26 +1,36 @@
 import turtle
 
-turtle.speed(5)
+t = turtle.Turtle()
+
+t.speed(0)
 turtle.bgcolor("black")
 
 
-def curve():
+def curve(turtle_obj):
     for i in range(200):
-        turtle.right(1)
-        turtle.forward(1)
+        t.right(1)
+        t.forward(1)
 
+def draw_lines(turtle_obj):
+    start_pos = t.pos()
+    for i in range(260//20):
+        t.right(20)
+        t.forward(111.65)
+        t.goto(start_pos)
 
-turtle.color("blue", "red")
+t.color("blue", "red")
 
-turtle.begin_fill()
-turtle.left(140)
-turtle.forward(111.65)
-curve()
+t.begin_fill()
+t.left(140)
+t.forward(111.65)
+curve(t)
 
-turtle.left(120)
-curve()
-turtle.forward(111.65)
-turtle.end_fill()
-turtle.hideturtle()
-turtle.mainloop()
+t.left(120)
+curve(t)
+t.forward(111.65)
+t.end_fill()
+t.hideturtle()
+t.right(180)
+draw_lines(t)
+
 
