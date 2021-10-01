@@ -26,4 +26,5 @@ turtle.forward(111.64)
 turtle.end_fill()
 turtle.hideturtle()
 turtle.mainloop()
+turtle.mainloop()
 
