@@ -17,3 +17,9 @@ if w % 2 == 0 and w != 2:
     print("YES")
 else:
     print("NO")
+def add():
+    print(1+2)
+def sub():
+    print(3-1)
+def div():
+    print(4//2)
