@@ -1,6 +1,6 @@
 import turtle
 
-turtle.speed(5)
+turtle.speed(0)
 turtle.bgcolor("black")
 
 
@@ -27,4 +27,4 @@ turtle.end_fill()
 turtle.hideturtle()
 turtle.mainloop()
 turtle.mainloop()
-//ankit
+#ankit
