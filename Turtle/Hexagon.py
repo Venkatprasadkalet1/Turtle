@@ -3,7 +3,7 @@ polygon = turtle.Turtle()
 
 num_sides = 6
 side_length = 70
-angle = 360.0 / num_sides
+angle = 360.00 / num_sides
 
 for i in range(num_sides):
 	polygon.forward(side_length)
