@@ -27,4 +27,3 @@ turtle.end_fill()
 turtle.hideturtle()
 turtle.mainloop()
 turtle.mainloop()
-
